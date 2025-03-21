@@ -1,3 +1,16 @@
+
+.App{
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://wallpapercave.com/wp/wp1877185.jpg');
+  background-position: center center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  
+}
+.App > DashBoard{
+  margin-top: 200px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +18,7 @@
 }
 
 img {
+  display: inline-block;
   max-width: 100%;
 }
 
